@@ -1,0 +1,21 @@
+html body.bg-full-screen-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/core/migas-login.png) center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.custom-loading {
+    background: #efefef;
+    color: #666666;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 5000;
+    top: 0;
+    left: 0;
+    float: left;
+    text-align: center;
+    padding-top: 50vh;
+    opacity: .80;
+}
